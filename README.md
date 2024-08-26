@@ -32,7 +32,18 @@
 - How to boot the RPi5 with the SD Card first (which is the default)
   - Use the boot order **0xf416**
   - This is is most likely accompilished while using the OS in the SD card...
-- How to boot the RPi5 with the PCie NVME (SSD card) first which is NOT the default
+- How to boot the RPi5 with the PCie NVME (SSD card) first before the CD Card
   - Use the boot order **0xf461**
   - This is is most likely accompilished while using the OS in the SSD card...
 - How to change the boot order
+  - (1) open a terminal panel
+  - (2) Type in the following command
+     - sudo rpi-eeprom-config --edit
+  - You might see the following:
+
+ '''
+ [all]
+BOOT_UART=1
+POWER_OFF_ON_HALT=0
+BOOT_ORDER=0xf461 [[This is the boot order list]]
+ '''
