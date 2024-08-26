@@ -42,8 +42,8 @@
   - You might see the following:
 
  '''
- [all]
-BOOT_UART=1
-POWER_OFF_ON_HALT=0
-BOOT_ORDER=0xf461 [[This is the boot order list]]
+  [all]
+  BOOT_UART=1
+  POWER_OFF_ON_HALT=0
+  BOOT_ORDER=0xf461
  '''
