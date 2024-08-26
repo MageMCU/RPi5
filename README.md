@@ -10,7 +10,7 @@
   - Insert the card into RPi5, power up the board and follow the installation instructions.
 - 52Pi - N04 M.2 2280 PCIe to NVMe
   - N04 is compatible with the standard HAT size of Raspberry PiEP  [EP-0210] (https://wiki.52pi.com/index.php?title=EP-0210)
-    - 52Pi GPIO connects to the two rows of five pins as shown in the images. This is to power and to communicate the SSD.
+    - 52Pi GPIO connects to the two rows of five pins as shown in the images. This is to power and to communicate to the SSD.
 
 ### Testing Platform
 - The MCU chip **Atmega328P** is well known and the price is affordable as well as most of the robotic hardware that is described here. The Arduino Uno board comes with a removable MCU.
