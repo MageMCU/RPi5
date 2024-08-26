@@ -14,7 +14,7 @@
 - 52Pi - N04 M.2 2280 PCIe to NVMe
   - N04 is compatible with the standard HAT size of Raspberry Pi 5  [52Pi Wiki EP-0210](https://wiki.52pi.com/index.php?title=EP-0210)
     - 52Pi GPIO connects to the two rows of five pins as shown in the images. This is to power and to communicate to the SSD.]
-- Raspberry Pi 5 Metal case with NVMe by 52Pi [Youtube Instructions](https://www.youtube.com/watch?v=kUBHWhdpbco) Note that the hat is a little different but it worked for me... Amazon once sold all these parts as a kit except the SSD...
+- Raspberry Pi 5 Metal case with NVMe by 52Pi [youtube Instructions](https://www.youtube.com/watch?v=kUBHWhdpbco) Note that the hat is a little different but it worked for me... Amazon once sold all these parts as a kit except the SSD...
 - Raspberry Pi OS
   - Use **Raspberry Pi Imager** to install of the [Raspberry Pi OS](https://www.raspberrypi.com/software/) onto the SD card.
   - Insert the card into RPi5, power up the board and follow the installation instructions.
