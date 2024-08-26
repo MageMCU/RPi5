@@ -20,7 +20,8 @@
 ### Boot Order
 - The boot order between the USB, the SD Card and the SSD card might be puzzling and frustrating.
 - Boot Order Hexidecimal Values
-  - f = start again
-  - 1 = check SD Card
-  - 4 = check USB drive
-  - 6 = check PCie NVME
+  - **f** = start again
+  - **1** = check SD Card
+  - **4** = check USB drive
+  - **6** = check PCie NVME
+- The boot order might look like **0xf416**
