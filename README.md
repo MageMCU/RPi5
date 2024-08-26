@@ -32,7 +32,7 @@
 - How to boot the RPi5 with the SD Card first (which is the default)
   - Use the boot order **0xf416**
   - This is is most likely accompilished while using the OS in the SD card...
-- How to boot the RPi5 with the PCie NVME (SSD card) first (which is NOT the default)
+- How to boot the RPi5 with the PCie NVME (SSD card) first which is NOT the default
   - Use the boot order **0xf461**
   - This is is most likely accompilished while using the OS in the SSD card...
 - How to change the boot order
