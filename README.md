@@ -35,7 +35,7 @@
   - RPi will finally check the PCie NVME (SSD card -  (usually for the OS)
 - How to boot the RPi5 with the SD Card first (which is the default)
   - Use the boot order **0xf416**
-  - It is unsure from which card is booting the OS but the SD Card us used to install the OS onto the SSD card.
+  - It is unsure from which card is booting the OS but the SD Card is used to install the OS onto the SSD card.
   - Once installed on the SSD card, the SD card maybe pulled from the RPi.
 - How to boot the RPi5 with the PCie NVME (SSD card) first before the CD Card
   - Use the boot order **0xf461**
