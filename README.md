@@ -38,7 +38,7 @@
 - How to change the boot order
   - (1) open a terminal panel
   - (2) Type in the following command
-     - *sudo rpi-eeprom-config --edit* (see link below for more information
+     - ***sudo rpi-eeprom-config --edit*** (see link below for more information
        - You might see the following:
        ```
          [all]
