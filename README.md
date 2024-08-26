@@ -1,4 +1,4 @@
-## Uno (Atmega328PU) - Raspberry Pi 5 and older models for communication
+## RaspberryPi5 and older models & Uno (Atmega328PU) Communication
 
 ### Testing Platform
 - The MCU chip **Atmega328P** is well known and the price is affordable as well as most of the robotic hardware that is described here. The Arduino Uno board comes with a removable MCU.
