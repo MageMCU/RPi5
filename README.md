@@ -21,6 +21,7 @@
 
 ### Boot Order
 - The boot order among the **USB**, the **SD Card** and the **SSD card** might be puzzling and frustrating.
+  - If you have both a SD and a SSD card installed and you're having difficulty booting one over the other...
 - Boot Order in Hexidecimal Values
   - **f** = **start again**  - *bits 1111*
   - **1** = check **SD Card**  - *bits 0001*
