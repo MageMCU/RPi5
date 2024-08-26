@@ -11,13 +11,13 @@
   - GeeekPi Metal Case for Raspberry Pi 5 [Å](https://www.amazon.com/GeeekPi-Raspberry-Active-Support-Peripheral/dp/B0CMZ84GM8?ref_=ast_sto_dp)
   - 52.PI M.2 MVNE SSD Adapter - NO4 for RP|5 [Å](https://www.amazon.com/GeeekPi-NVMe-Adapter-Raspberry-Support/dp/B0CRK4YB4C?ref_=ast_sto_dp)
   - SAMSUNG 990 EVO SSD [Å](https://www.amazon.com/Samsung-Internal-Computer-MZ-V9E1T0B-AM/dp/B0CRCC9863?th=1)
-- Raspberry Pi OS
-  - Use **Raspberry Pi Imager** to install of the [Raspberry Pi OS](https://www.raspberrypi.com/software/) onto the SD card.
-  - Insert the card into RPi5, power up the board and follow the installation instructions.
 - 52Pi - N04 M.2 2280 PCIe to NVMe
   - N04 is compatible with the standard HAT size of Raspberry Pi 5  [52Pi Wiki EP-0210](https://wiki.52pi.com/index.php?title=EP-0210)
     - 52Pi GPIO connects to the two rows of five pins as shown in the images. This is to power and to communicate to the SSD.]
-- Raspberry Pi 5 Metal case with NVMe by 52Pi [Instructions](https://www.youtube.com/watch?v=kUBHWhdpbco) Note that Amazon sold this as a kit...
+- Raspberry Pi 5 Metal case with NVMe by 52Pi [Youtube Instructions](https://www.youtube.com/watch?v=kUBHWhdpbco) Note that Amazon once sold this as a kit... 
+- Raspberry Pi OS
+  - Use **Raspberry Pi Imager** to install of the [Raspberry Pi OS](https://www.raspberrypi.com/software/) onto the SD card.
+  - Insert the card into RPi5, power up the board and follow the installation instructions.
 
 ### Boot Order
 - The boot order among the **USB**, the **SD Card** and the **SSD card** might be puzzling and frustrating.
