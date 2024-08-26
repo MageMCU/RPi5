@@ -18,6 +18,7 @@
 - Raspberry Pi OS
   - Use **Raspberry Pi Imager** to install of the [Raspberry Pi OS](https://www.raspberrypi.com/software/) onto the SD card.
   - Insert the card into RPi5, power up the board and follow the installation instructions.
+  - Unsure if different OS applies but the boot order as discussed only uses the Radpberry Pi OS.
 
 ### Boot Order
 - The boot order among the **USB**, the **SD Card** and the **SSD card** might be puzzling and frustrating.
