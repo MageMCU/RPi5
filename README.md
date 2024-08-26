@@ -20,11 +20,11 @@
 ### Boot Order
 - The boot order among the **USB**, the **SD Card** and the **SSD card** might be puzzling and frustrating.
 - Boot Order in Hexidecimal Values
-  - **f** = start again  - bits 1111
-  - **1** = check SD Card  - bits 0001
-  - **4** = check USB drive  - bits 0100
-  - **6** = check PCie NVME  - bits 0110
-- The boot order might look like **0xf416** bits 1111 0100 0001 0110
+  - **f** = **start again**  - bits 1111
+  - **1** = check **SD Card**  - bits 0001
+  - **4** = check **USB drive**  - bits 0100
+  - **6** = check **PCie NVME**  - bits 0110
+- The boot order might look like **0xf416** bits 1111 0100 0001 0110 and will execute the following in the order listed...
   - RPi will start again first
   - RPi will then check the USB (usually for the OS)
   - RPi will then check the SD Card (usually for the OS)
