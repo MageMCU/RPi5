@@ -52,5 +52,5 @@
   - (3) The statement ***BOOT_ORDER=0xf416*** is where the boot order can be changed...
   - Update the bootloader configuration [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#update-the-bootloader-configuration)
 
-### Using other Raspberry Pi for Atmega328PU communication
+### Other RaspberryPi models with Atmega328PU communication
 - Under development
