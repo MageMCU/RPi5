@@ -44,6 +44,6 @@
          [all]
          BOOT_UART=1
         POWER_OFF_ON_HALT=0
-        BOOT_ORDER=0xf461
+        BOOT_ORDER=0xf41
        ```
        - The statement ***BOOT_ORDER=0xf461*** is where the boot order can be changed...
