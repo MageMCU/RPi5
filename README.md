@@ -39,10 +39,10 @@
   - (1) open a terminal panel
   - (2) Type in the following command
      - sudo rpi-eeprom-config --edit
-  - You might see the following:
- ```
-  [all]
-  BOOT_UART=1
-  POWER_OFF_ON_HALT=0
-  BOOT_ORDER=0xf461
-  ```
+       - You might see the following:
+       ```
+         [all]
+         BOOT_UART=1
+        POWER_OFF_ON_HALT=0
+        BOOT_ORDER=0xf461
+       ```
