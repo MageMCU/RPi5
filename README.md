@@ -25,4 +25,7 @@
   - **4** = check USB drive  - bits 0100
   - **6** = check PCie NVME  - bits 0110
 - The boot order might look like **0xf416** bits 1111 0100 0001 0110
-  - RPi will check
+  - RPi will start again first
+  - RPi will then check the USB (usually for the OS)
+  - RPi will then check the SD Card
+  - RPi will finally check the PCie NVME (SSD card)
