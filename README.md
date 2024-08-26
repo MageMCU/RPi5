@@ -18,8 +18,8 @@
     - 52Pi GPIO connects to the two rows of five pins as shown in the images. This is to power and to communicate to the SSD.]
 
 ### Boot Order
-- The boot order between the USB, the SD Card and the SSD card might be puzzling and frustrating.
-- Boot Order Hexidecimal Values
+- The boot order between the **USB**, the **SD Card** and the **SSD card** might be puzzling and frustrating.
+- Boot Order in Hexidecimal Values
   - **f** = start again  - bits 1111
   - **1** = check SD Card  - bits 0001
   - **4** = check USB drive  - bits 0100
