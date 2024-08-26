@@ -27,5 +27,12 @@
 - The boot order might look like **0xf416** bits 1111 0100 0001 0110
   - RPi will start again first
   - RPi will then check the USB (usually for the OS)
-  - RPi will then check the SD Card
-  - RPi will finally check the PCie NVME (SSD card)
+  - RPi will then check the SD Card (usually for the OS)
+  - RPi will finally check the PCie NVME (SSD card -  (usually for the OS)
+- How to boot the RPi5 with the SD Card first (which is the default)
+  - Use the boot order **0xf416**
+  - This is is most likely accompilished while using the OS in the SD card...
+- How to boot the RPi5 with the PCie NVME (SSD card) first (which is NOT the default)
+  - Use the boot order **0xf461**
+  - This is is most likely accompilished while using the OS in the SSD card...
+- How to change the boot order
