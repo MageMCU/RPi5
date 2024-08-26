@@ -43,8 +43,8 @@
        ```
          [all]
          BOOT_UART=1
-        POWER_OFF_ON_HALT=0
-        BOOT_ORDER=0xf41
+         POWER_OFF_ON_HALT=0
+         BOOT_ORDER=0xf41
        ```
   - (3) The statement ***BOOT_ORDER=0xf461*** is where the boot order can be changed...
   - [Update the bootloader configuration](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#update-the-bootloader-configuration)
