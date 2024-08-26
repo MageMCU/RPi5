@@ -38,7 +38,7 @@
 - How to change the boot order
   - (1) open a terminal panel
   - (2) Type in the following command
-     - *sudo rpi-eeprom-config --edit*
+     - *sudo rpi-eeprom-config --edit* (see link below for more information
        - You might see the following:
        ```
          [all]
@@ -47,3 +47,4 @@
         BOOT_ORDER=0xf41
        ```
   - (3) The statement ***BOOT_ORDER=0xf461*** is where the boot order can be changed...
+  - [Update the bootloader configuration](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#update-the-bootloader-configuration)
