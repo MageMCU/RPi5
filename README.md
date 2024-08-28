@@ -56,3 +56,6 @@
 
 ### Other RaspberryPi models with Atmega328PU communication
 - Under development
+
+### Articles
+- [1017 - RPi Cheat Sheet](https://drive.google.com/file/d/1gQcoghc7cdnsxAVVT9PBMUGY1FLKjWS2)
