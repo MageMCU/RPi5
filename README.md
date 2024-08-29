@@ -39,7 +39,7 @@
   - Once installed on the SSD card, the SD card maybe pulled from the RPi.
 - How to boot the RPi5 with the PCie NVME (SSD card) first before the CD Card
   - Use the EEPROM boot order **0xf461**
-  - It is unsure whether the blank SD Card can be used as memory in this configuration.
+  - It is unsure whether the blank SD Card can be used as memory (storage) in this configuration.
 - How to edit the EEPROM boot order
   - (1) open a terminal panel
   - (2) Type in the following command
