@@ -21,26 +21,26 @@
   - The EEPROM Boot Order applies to the Raspberry Pi Operating System and whether this includes different Operating Systems.
 
 ### EEPROM Boot Order for Raspberry Pi Operating System (OS)
-- The boot order among the **USB**, the **SD Card** and the **SSD card** might be puzzling and frustrating.
+- The EEPROM boot order among the **USB**, the **SD Card** and the **SSD card** might be puzzling and frustrating.
   - If you have both a SD and a SSD card installed and you're having difficulty booting one over the other...
-- Boot Order in Hexidecimal Values
+- EEPROM Boot Order in Hexidecimal Values
   - **f** = **start again**  - *bits 1111*
   - **1** = check **SD Card**  - *bits 0001*
   - **4** = check **USB drive**  - *bits 0100*
   - **6** = check **PCie NVME**  - *bits 0110*
-- The boot order might look like **0xf416** (*bits 1111 0100 0001 0110*) and will execute the following in the order listed...
+- The EEPROM boot order might look like **0xf416** (*bits 1111 0100 0001 0110*) and will execute the following in the order listed...
   - RPi will start again first
   - RPi will then check the USB (usually for the OS)
   - RPi will then check the SD Card (usually for the OS)
   - RPi will finally check the PCie NVME (SSD card -  (usually for the OS)
 - How to boot the RPi5 with the SD Card first (which is the default)
-  - Use the boot order **0xf416**
+  - Use the EEPROM boot order **0xf416**
   - It is unsure from which card is booting the OS but the SD Card was used to install the OS onto the SSD card.
   - Once installed on the SSD card, the SD card maybe pulled from the RPi.
 - How to boot the RPi5 with the PCie NVME (SSD card) first before the CD Card
-  - Use the boot order **0xf461**
+  - Use the EEPROM boot order **0xf461**
   - It is unsure whether the blank SD Card can be used as memory in this configuration.
-- How to change the boot order
+- How to change the EEPROM boot order
   - (1) open a terminal panel
   - (2) Type in the following command
      - ***sudo rpi-eeprom-config --edit*** (see link below for more information
@@ -51,8 +51,8 @@
          POWER_OFF_ON_HALT=0
          BOOT_ORDER=0xf416
        ```
-  - (3) The statement ***BOOT_ORDER=0xf416*** is where the boot order can be changed...
-  - ???? [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#edit-eeprom-boot-order)
+  - (3) The statement ***BOOT_ORDER=0xf416*** is where the EEPROM boot order can be changed...
+  - Edit EEPROM boot order [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#edit-eeprom-boot-order)
 
 ### Other RaspberryPi models with Atmega328PU communication
 - Under development
