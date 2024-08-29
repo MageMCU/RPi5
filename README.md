@@ -23,12 +23,12 @@
 ### EEPROM Boot Order for Raspberry Pi Operating System (OS)
 - The EEPROM boot order among the **USB**, the **SD Card** and the **SSD card** might be puzzling and frustrating.
   - If you have both a SD and a SSD card installed and you're having difficulty booting one over the other...
-- EEPROM Boot Order in Hexidecimal Values
-  - **f** = **start again**  - *bits 1111*
-  - **1** = check **SD Card**  - *bits 0001*
-  - **4** = check **USB drive**  - *bits 0100*
-  - **6** = check **PCie NVME**  - *bits 0110*
-- The EEPROM boot order might look like **0xf416** (*bits 1111 0100 0001 0110*) and will execute the following in the order listed...
+- EEPROM Boot Order in **Hexidecimal** Values
+  - **f** = **start again**  - *0xf = bits 1111* (What dois it equal in the **decimal** number system?)
+  - **1** = check **SD Card**  - *0x1 = bits 0001*
+  - **4** = check **USB drive**  - *0x4 = bits 0100*
+  - **6** = check **PCie NVME**  - *0x8 = bits 0110*
+- The EEPROM boot order might look like **0xf416** (*0xf416 = bits 1111 0100 0001 0110*) and will execute the following in the order listed...
   - RPi will start again first
   - RPi will then check the USB (usually for the OS)
   - RPi will then check the SD Card (usually for the OS)
