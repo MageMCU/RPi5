@@ -15,8 +15,8 @@
   - N04 is compatible with the standard HAT size of Raspberry Pi 5  [52Pi Wiki EP-0210](https://wiki.52pi.com/index.php?title=EP-0210)
     - 52Pi GPIO connects to the two rows of five pins as shown in the images. This is to power and to communicate to the SSD.]
 - Raspberry Pi 5 Metal case with NVMe by 52Pi [youtube Instructions](https://www.youtube.com/watch?v=kUBHWhdpbco). Note that he begins with a smaller hat but he continues with the larger hat... Amazon once sold all these parts as a kit except the SSD...
-- Raspberry Pi Operating System (OS)
-  - Use **Raspberry Pi Imager** to install of the [Raspberry Pi Operating System (OS)](https://www.raspberrypi.com/software/) onto the SD card.
+- Raspberry Pi Operating System
+  - Use **Raspberry Pi Imager** to install of the [Raspberry Pi Operating System](https://www.raspberrypi.com/software/) onto the SD card.
   - Insert the card into RPi5, power up the board and follow the installation instructions.
   - The EEPROM Boot Order applies to the Raspberry Pi Operating System and whether this includes different Operating Systems.
 
@@ -40,7 +40,7 @@
 - How to boot the RPi5 with the PCie NVME (SSD card) first before the CD Card
   - Use the EEPROM boot order **0xf461**
   - It is unsure whether the blank SD Card can be used as memory in this configuration.
-- How to change the EEPROM boot order
+- How to edit the EEPROM boot order
   - (1) open a terminal panel
   - (2) Type in the following command
      - ***sudo rpi-eeprom-config --edit*** (see link below for more information
@@ -51,8 +51,8 @@
          POWER_OFF_ON_HALT=0
          BOOT_ORDER=0xf416
        ```
-  - (3) The statement ***BOOT_ORDER=0xf416*** is where the EEPROM boot order can be changed...
-  - Edit EEPROM boot order [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#edit-eeprom-boot-order)
+  - (3) The statement ***BOOT_ORDER=0xf416*** is where the EEPROM boot order can be edited...
+  - Edit EEPROM boot order source [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#edit-eeprom-boot-order)
 
 ### Other RaspberryPi models with Atmega328PU communication
 - Under development
