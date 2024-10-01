@@ -59,6 +59,13 @@
 aimed on the communication between the Raspberry Pi and the Arduino Uno (Atmega328P) specifically the Inter-Integrated Circuit (I2C) Bus. The Inter-Integrated Circuit (I2C) Bus is designed to provide communication among multiple integrated circuits (IC). The integrated
 circuits used are the Pi and Uno. In the Communication repository at Github at MageMCU account introduces the I2C protocol between two Arduino Uno located in the folder MCU. The goal for the Arduino Uno and the Raspberry Pi will be used together as a means to develop
 future projects in robotics and AI. (article 1013)
+
 ### Articles
 - [1013 - *Pi Uno* SMBus I2C Study](https://drive.google.com/file/d/1o1uuV1XeMvV8kKT-DoPhIqBPmvH65cOY)
 - [1017 - RPi Cheat Sheet](https://drive.google.com/file/d/1gQcoghc7cdnsxAVVT9PBMUGY1FLKjWS2)
+
+### Development
+- 20240930 Preliminary testing complete - see article 1013 Pi Uno SMBus I2C Study. Code will be pushed soon...
+
+### Dosclaimer and Terms
+- Coming Soon
