@@ -58,7 +58,7 @@
 - The Raspberry Pi 3 Model B v1.2 (2015) with 1-GB RAM was pulled from a box containing older Pi models. The Pi v1.2 is still sold by Raspberry Pi store. The reason is to test the board on todays software and will be used as a minimum hardware setup. The study is
 aimed on the communication between the Raspberry Pi and the Arduino Uno (Atmega328P) specifically the Inter-Integrated Circuit (I2C) Bus. The Inter-Integrated Circuit (I2C) Bus is designed to provide communication among multiple integrated circuits (IC). The integrated
 circuits used are the Pi and Uno. In the Communication repository at Github at MageMCU account introduces the I2C protocol between two Arduino Uno located in the folder MCU. The goal for the Arduino Uno and the Raspberry Pi will be used together as a means to develop
-future projects in robotics and AI. (article 1013)
+future projects in robotics and AI. (article 1013 taken from first paragraph...)
 
 ### Articles
 - [1013 - *Pi Uno* SMBus I2C Study](https://drive.google.com/file/d/1o1uuV1XeMvV8kKT-DoPhIqBPmvH65cOY)
