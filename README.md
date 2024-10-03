@@ -19,8 +19,14 @@
 
 
 ### Articles
-- [1013 - *Pi Uno* SMBus I2C Study](https://drive.google.com/file/d/1o1uuV1XeMvV8kKT-DoPhIqBPmvH65cOY)
+- [1013 - *Pi Uno* SMBus I2C Study](https://drive.google.com/file/d/1Ak30qBsUl_QLcWJbydXyrousAYon3r7R)
 - [1017 - RPi Cheat Sheet](https://drive.google.com/file/d/1gQcoghc7cdnsxAVVT9PBMUGY1FLKjWS2)
+### Gordon's Pages
+- [GH - Functions (API)](https://drive.google.com/file/d/1eGsxp4vKBSuUBOfoEsQ9weqamtjtW1tM)
+- [GH - GPIO Utility](https://drive.google.com/file/d/1c39z9GPuElnlMtbk8a5t3wle9eCBjKPF)
+- [GH - I2C Library](https://drive.google.com/file/d/10tzVnZqh0yXY2Sf185dfQA5VEg0iEm68)
+- [GH - Serial Library](https://drive.google.com/file/d/1em4JdqndxrG1uy2IZ0OT4PBSxEOekgqY)
+- [GH - SPI Library](https://drive.google.com/file/d/1-kG9ixW4yhXx2dDLs3d--4i8P5EF4HTj)
 
 ### Development
 - 20240930 Preliminary testing complete - see article 1013 Pi Uno SMBus I2C Study.
