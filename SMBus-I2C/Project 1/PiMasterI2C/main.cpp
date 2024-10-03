@@ -8,7 +8,8 @@
 // By Jesse Carpenter (carpentersoftware.com)
 //
 // Testing Platform:
-//  * MCU:Atmega328P
+//  * Raspberry Pi 3 Modole B v1.2 (2015)
+//  * Arduino Uno Rev.3
 //  * Arduino IDE - UnoSlaveI2C.ino
 //  * Code::Blocks - main.cpp
 //
