@@ -1,3 +1,20 @@
+//
+// Carpenter Software
+// Folder: PiMasterI2C/main.cpp
+// Github: MageMCU
+// Repository: Raspberry Pi - Uno - I2C Communication
+// Folder: SMBus-I2C/Project 1
+//
+// By Jesse Carpenter (carpentersoftware.com)
+//
+// Testing Platform:
+//  * MCU:Atmega328P
+//  * Arduino IDE - UnoSlaveI2C.ino
+//  * Code::Blocks - main.cpp
+//
+// MIT LICENSE
+//
+
 #include <iostream>
 #include <wiringPi.h>
 #include <wiringPiI2C.h>

@@ -1,3 +1,19 @@
+//
+// Carpenter Software
+// Folder: UnoSlaveI2C/UnoSlaveI2C.ino
+// Github: MageMCU
+// Repository: Raspberry Pi - Uno - I2C Communication
+// Folder: SMBus-I2C/Project 1
+//
+// By Jesse Carpenter (carpentersoftware.com)
+//
+// Testing Platform:
+//  * MCU:Atmega328P
+//  * Arduino IDE - UnoSlaveI2C.ino
+//  * Code::Blocks - main.cpp
+//
+// MIT LICENSE
+//
 
 #include <Wire.h>
 
