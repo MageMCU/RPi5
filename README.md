@@ -1,4 +1,5 @@
-## Hardware Setup
+## SMBus-I2C Communication
+- Raspberry Pi as a SMBus Host and Arduino Uno as Slave. Well it seems Raspberry Pi is one of those developing technologies that uses the so-called hybrid SMBus-I2C protocol technology. The external SMBus works on the Atmega328P chip, the brains of the Arduino Uno, but the Atmega328P uses only the byte-oriented 2-wire serial interface (Phillips I2C compatible) protocol. The SMBus-I2C can serve as the Host, Master or Slave on devices where Host is a special master. The Raspberry Pi serves as a SMBus-I2C Host. Between the two, the Pi & Uno, there is a minimum difference mostly in the names, SMBus and I2C. (article 1013)
 
 ### Testing Platform
 - The MCU chip **Atmega328P** is well known and the price is affordable as well as most of the robotic hardware that is described here. The Arduino Uno board comes with a removable MCU.
