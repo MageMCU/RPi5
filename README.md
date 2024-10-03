@@ -19,7 +19,7 @@
 
 
 ### Articles
-- [1013 - *Pi Uno* SMBus I2C Study](https://drive.google.com/file/d/1Ak30qBsUl_QLcWJbydXyrousAYon3r7R)
+- [1013 - SMBus-I2C Study](https://drive.google.com/file/d/1Ak30qBsUl_QLcWJbydXyrousAYon3r7R)
 - [1017 - RPi Cheat Sheet](https://drive.google.com/file/d/1gQcoghc7cdnsxAVVT9PBMUGY1FLKjWS2)
 ### Gordon's Pages
 - [GH - Functions (API)](https://drive.google.com/file/d/1eGsxp4vKBSuUBOfoEsQ9weqamtjtW1tM)
