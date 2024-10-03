@@ -25,4 +25,4 @@
 - 20240930 Preliminary testing complete - see article 1013 Pi Uno SMBus I2C Study.
 
 ### Disclaimer and Terms
-- Coming Soon
+- Please read the Disclaimer amd Terms
