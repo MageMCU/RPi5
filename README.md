@@ -10,8 +10,8 @@
     - See article 1013 for details
 
 ### WiringPi Library
-- WiringPi supports all Raspberry Pi Boards including Pi 5. The library a reliable choice for Raspberry Pi GPIO including I2C, SPI and Serial.
-  - The *RaspberryPi-Uno-Communication* repository uses the WiringPi Inter-Integrated Circuit (I2C).
+- WiringPi supports all Raspberry Pi Boards including Pi 5. The library is a choice (for now) for *programming* Raspberry Pi **GPIO** including **I2C**, **SPI** and **Serial** communications.
+  - The *RaspberryPi-Uno-Communication* repository uses the WiringPi Inter-Integrated Circuit (I2C). Furthermore, The I2C is used between the Pi and Uno devices.
 - Source at Github [WiringPi](https://github.com/WiringPi/WiringPi)
 
 ### SMBus-I2C
