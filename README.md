@@ -4,9 +4,9 @@
 ### Testing Platform
 - The MCU chip **Atmega328P** is well known and the price is affordable as well as most of the robotic hardware that is described here. The Arduino Uno board comes with a removable MCU.
   - **Arduino IDE** Legacy IDE 1.8.19 - Linux ARM 64 bits
-    - See article 1013 for details
+    - See article 1013 for details for installation.
 - The **Raspberry Pi** 3 Model B v1.2 (2015) with 1-GB RAM... For now, this Pi and other models will be used here only at this repository: Raspberry-Uno-Communication
-  - **Code::Block** version svn-r13046 - used sudo apt install codeblocks codeblocks-contrib
+  - **Code::Block** version svn-r13046 - used *sudo apt install codeblocks codeblocks-contrib*
     - See article 1013 for details
 
 ### WiringPi Library
