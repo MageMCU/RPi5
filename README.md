@@ -9,6 +9,11 @@
   - **Code::Block** version svn-r13046 - used sudo apt install codeblocks codeblocks-contrib
     - See article 1013 for details
 
+### WiringPi Library
+- WiringPi supports all Raspberry Pi Boards including Pi 5. The library a reliable choice for Raspberry Pi GPIO including I2C, SPI and Serial.
+  - The *RaspberryPi-Uno-Communication* repository uses the WiringPi Inter-Integrated Circuit (I2C).
+- Source at Github [WiringPi](https://github.com/WiringPi/WiringPi)
+
 ### SMBus-I2C
 - Project 1
   - PiMasterI2C - Used Raspberry Pi 3 Model B v1.2 (2005) - Code::Blocks IDE
