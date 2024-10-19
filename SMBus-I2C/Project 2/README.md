@@ -5,7 +5,7 @@
   - BytesToWord()
   - DWordTo4Bytes()
   - BytesToDWord()
-- Code development for the follow methods:
+- Code development for the following methods:
   - floatToBytes()
   - bytesToFloat
 ### Test Results
