@@ -1,5 +1,6 @@
 ## Float Study for both UNO & PI
--  When using the SMBus-I2C communication between the UNO & PI, the only data type that can be sent and received is the type *byte* and type *char* which is the data type most often used whose base type is the *uint8_t*, an unsigned integer containing 8-bits. 
+-  When using the SMBus-I2C communication between the UNO & PI, the only data type that can be sent and received is the type *byte* and type *char* which is the data type most often used whose base type is the *uint8_t*, an unsigned integer containing 8-bits.
+-  The code has to be identical for both UNO & PI... has been along time coming.
 ### **TypeConv.h**
 - Has following methods:
   - WordTo2Bytes()
