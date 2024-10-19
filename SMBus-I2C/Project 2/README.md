@@ -220,6 +220,8 @@ val: 3141.59
 g_FLOAT: 31415.9
 val: 31415.9
 ```
+### Development
+- Presently working on UNO & PI SMBus-I2C interface
 
 
 
