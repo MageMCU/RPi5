@@ -8,8 +8,8 @@
   - DWordTo4Bytes()
   - BytesToDWord()
 - Code development for the following methods:
-  - floatToBytes()
-  - bytesToFloat
+  - FloatToBytes()
+  - BytesToFloat()
 ### Test Results
 ```
 20241019 TypeConv.h File
