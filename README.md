@@ -15,16 +15,24 @@
 - Source at Github [WiringPi](https://github.com/WiringPi/WiringPi)
 
 ### SMBus-I2C
-- Project 1
+- Project 1 - Used the WiringPi Library
   - PiMasterI2C - Used Raspberry Pi 3 Model B v1.2 (2005) - Code::Blocks IDE
   - UnoSlaveI2C - Arduino Uno Rev.3 - Arduino IDE 1.8.19
-- Project 2
-  - PiMasterI2C pending
-  - UnoSlaveI2C pending
+- Project 2 - Used the Input-Output Control (IOCTL)
+  - I2C-Master - Used Raspberry Pi 3 Model B v1.2 (2005) - Code::Blocks IDE
+    - This folder has the executable binary - use the Terminal **./I2C-Master** to run...
+  - I2C-Slave1 - Arduino Uno Rev.3 - Arduino IDE 1.8.19
+  - I2C-Slave2 - Arduino Uno Rev.3 - Arduino IDE 1.8.19
 
 
 ### Articles
 - [1013 - SMBus-I2C Study](https://drive.google.com/file/d/1Ak30qBsUl_QLcWJbydXyrousAYon3r7R)
+  - Introduction to WiringPi
+- [1013 - SMBus-I2C Supplemental](https://drive.google.com/file/d/165di6Nlqdie9qoxyTKurd0aXFMsoDxL8)
+  - Moving away from WiringPi by using **IOCTL** (Input-Output Control)
+    - Article updated 20241221...
+- [1013 - SMBus-I2C Time](https://drive.google.com/file/d/1X82I94Y4eFbRcooC6dy5uB_NxeGZadFC)
+  - Using Linux Time for the **millis()** function
 - [1017 - RPi Cheat Sheet](https://drive.google.com/file/d/1gQcoghc7cdnsxAVVT9PBMUGY1FLKjWS2)
 ### Gordon's Pages
 - [GH - Functions (API)](https://drive.google.com/file/d/1eGsxp4vKBSuUBOfoEsQ9weqamtjtW1tM)
@@ -35,7 +43,7 @@
 
 ### Development
 - 20240930 Preliminary testing complete - see article 1013 SMBus-I2C Study.
-- 20241003 Article 1013 updated...
+- 20241209 Several parts to Article 1013 updated... What a Mess...
 
 ### Disclaimer and Terms
 - Please read the Disclaimer amd Terms
