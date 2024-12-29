@@ -44,7 +44,15 @@
 ### Development
 - 20240930 Preliminary testing complete - see article 1013 SMBus-I2C Study.
 - 20241209 Several parts to Article 1013 updated... What a Mess...
-- 20241229 Since 2017, Bartosz Golaszewski has developed the **libgpiod** library that uses the character device in user-space. Libgpiod is a C library designed to provide a standardized and efficient way to interact with the General Purpose Input/Output (GPIO) pins on a Linux system, replacing the older, deprecated **sysfs** interface and allowing developers to easily read and write values to GPIO lines through a set of functions and command-line tools; essentially, it acts as a user-friendly interface for controlling GPIO hardware on Linux systems which includes the Raspberry Pi. 
+- 20241229 Since 2017, Bartosz Golaszewski has developed the **libgpiod** library that uses the character device in user-space. Libgpiod is a C library designed to provide a standardized and efficient way to interact with the General Purpose Input/Output (GPIO) pins on a Linux system, replacing the older, deprecated **sysfs** interface and allowing developers to easily read and write values to GPIO lines through a set of functions and command-line tools; essentially, it acts as a user-friendly interface for controlling GPIO hardware on Linux systems which includes the Raspberry Pi.
+  - **Libgpiod** (Library General Purpose Input/Output device)  provides both API calls for use in your own programs and the following six user-mode applications to manipulate GPIO lines: source: An Introduction to chardev GPIO and Libgpiod on the Raspberry PI (BeyondLogic 2018)
+    - **gpiodetect** – list all gpiochips present on the system, their names, labels and number of GPIO lines
+    - **gpiodetect** – list all gpiochips present on the system, their names, labels and number of GPIO lines
+    - **gpioinfo** – list all lines of specified gpiochips, their names, consumers, direction, active state and additional flags
+    - **gpioget** – read values of specified GPIO lines
+    - **gpioset** – set values of specified GPIO lines, potentially keep the lines exported and wait until timeout, user input or signal
+    - **gpiofind** – find the gpiochip name and line offset given the line name
+    - **gpiomon** – wait for events on GPIO lines, specify which events to watch, how many events to process before exiting or if the events should be reported to the console
 
 ### Disclaimer and Terms
 - Please read the Disclaimer amd Terms
