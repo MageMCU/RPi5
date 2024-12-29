@@ -43,7 +43,7 @@
 
 ### Development
 - 20240930 Preliminary testing complete - see article 1013 SMBus-I2C Study.
-- 20241209 Several parts to Article 1013 updated... What a Mess...
+- 20241209 Several parts to Article 1013 updated... What a Mess... (I don't know what I don't know)
 - 20241229 Since 2017, Bartosz Golaszewski has developed the **libgpiod** library that uses the character device in user-space. Libgpiod is a C library designed to provide a standardized and efficient way to interact with the General Purpose Input/Output (GPIO) pins on a Linux system, replacing the older, deprecated **sysfs** interface and allowing developers to easily read and write values to GPIO lines through a set of functions and command-line tools; essentially, it acts as a user-friendly interface for controlling GPIO hardware on Linux systems which includes the Raspberry Pi.
   - **Libgpiod** (Library General Purpose Input/Output device)  provides both API calls for use in your own programs and the following six user-mode applications to manipulate GPIO lines: source: An Introduction to chardev GPIO and Libgpiod on the Raspberry PI (BeyondLogic 2018)
     - **gpiodetect** – list all gpiochips present on the system, their names, labels and number of GPIO lines
